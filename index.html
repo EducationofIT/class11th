@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chat App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- JOIN SETUP -->
+
+<div id="setup">
+
+<h2>Join Chat</h2>
+
+<input id="username" placeholder="Enter username">
+
+<input id="chat-id" placeholder="Enter chat ID">
+
+<button id="joinBtn">Join Chat</button>
+
+</div>
+
+<!-- CHAT AREA -->
+
+<div id="chat">
+
+<!-- HEADER -->
+
+<div id="header">
+
+<div id="profileSection">
+
+<img id="profilePic" src="pro.png">
+
+<div>
+
+<div id="roomName">Room</div>
+
+<div id="typingStatus"></div>
+
+</div>
+
+</div>
+
+<div>
+
+<span id="onlineCount">0 Online</span>
+
+<input type="file" id="changeProfile" accept="image/*">
+
+</div>
+
+</div>
+
+<!-- MESSAGES -->
+
+<div id="messages"></div>
+
+<!-- INPUT -->
+
+<div id="inputArea">
+
+<input id="message" placeholder="Message">
+
+<button id="sendBtn">Send</button>
+
+</div>
+
+</div>
+
+<!-- SCRIPT -->
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
